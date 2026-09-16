@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "408231208447",
+    "project_id": "workspace-5e508",
+    "storage_bucket": "workspace-5e508.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408231208447:android:e6302b0e95ae623b2bf3ca",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCpNZrnim1oQMUij3jUKNL1hqzvTCyPmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
