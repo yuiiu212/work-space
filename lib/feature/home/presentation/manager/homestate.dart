@@ -1,7 +1,7 @@
 import 'package:flutter_application_1/core/data/model/TaskDataModel.dart';
 
 abstract class HomeState {}
-// Delete task
+
 
 class InitialTaskDeleteState extends HomeState {}
 
@@ -44,7 +44,7 @@ class FailureTaskGettingState extends HomeState {
   FailureTaskGettingState({required this.errorMessage});
 }
 
-//get task by id
+
 class InitialGetTakByIdState extends HomeState {}
 
 class LoadingGetTakByIdState extends HomeState {}
@@ -59,7 +59,6 @@ class FailedToGetTaskByIdState extends HomeState {
   FailedToGetTaskByIdState({required this.errorMessage});
 }
 
-//status
 class InitialTaskUpdateStatusState extends HomeState {}
 
 class LoadingTaskUpdateStatusState extends HomeState {}
@@ -80,5 +79,5 @@ class SuccessUpdateTaskState extends HomeState {}
 class FailedToUpdateTaskState extends HomeState {
   final String errorMessage;
   FailedToUpdateTaskState({required this.errorMessage});
-  // Delete task
+  
 }

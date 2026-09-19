@@ -21,11 +21,11 @@ class _SplashScreenState extends State<SplashView> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // اللوجو
+            
             Image.asset(AssetsManager.logoApp, width: 120, height: 120),
             const SizedBox(height: 24),
 
-            // اسم التطبيق
+          
             Text(
               'work space',
               style: TextStyleManager.textStyleNeutralPrimaryB24(context),

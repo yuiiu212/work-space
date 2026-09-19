@@ -16,7 +16,7 @@ class AuthServices {
       password: password,
     );
     var token = await credintial.user?.getIdToken(false);
-    cacheHelper.setUserToken(userToken: credintial.user?.uid ?? '');
+   await cacheHelper.setUserToken(userToken: credintial.user?.uid ?? '');
     print(credintial.user?.uid ?? '');
   }
 
@@ -25,7 +25,7 @@ class AuthServices {
       email: email,
       password: password,
     );
-    cacheHelper.setUserToken(userToken: credintial.user?.uid ?? '');
+    await cacheHelper.setUserToken(userToken: credintial.user?.uid ?? '');
   }
 
 }

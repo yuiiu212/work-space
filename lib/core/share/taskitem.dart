@@ -71,7 +71,7 @@ class _TaskitemState extends State<Taskitem> {
         }
 
         if (state is SuccessUpdateTaskStatusState) {
-          context.pop();
+          
           context.pop();
           
           showSuccessDialog(

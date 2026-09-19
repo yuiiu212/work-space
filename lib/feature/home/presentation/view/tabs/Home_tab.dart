@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/core/Utilis/units.dart';
 import 'package:flutter_application_1/core/share/fuction/showFailDialog.dart';
-import 'package:flutter_application_1/core/share/textitem.dart';
+import 'package:flutter_application_1/core/share/taskitem.dart';
 import 'package:flutter_application_1/core/style/TextStyleManager.dart';
 import 'package:flutter_application_1/core/style/colormanagement.dart';
 import 'package:flutter_application_1/feature/home/presentation/manager/homecubit.dart';
